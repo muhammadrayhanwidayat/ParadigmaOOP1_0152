@@ -3,5 +3,11 @@
 
 class jantung {
 public:
-	jantung()
+	jantung() {
+		cout << "jantung dihidupkan\n";
+	}
+	~jantung() {
+		cout << "jantung dimatikan\n";
+	}
 };
+#endif
