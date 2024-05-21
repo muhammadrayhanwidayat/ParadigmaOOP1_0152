@@ -2,9 +2,16 @@
 #include <string>
 using namespace std;
 
+class Mahasiswa {
+    private:
+        const int id;
+        string nama;
+        float nilai;
+};
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
