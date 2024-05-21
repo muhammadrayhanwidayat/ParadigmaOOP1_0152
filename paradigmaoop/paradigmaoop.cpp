@@ -7,7 +7,16 @@ class Mahasiswa {
         const int id;
         string nama;
         float nilai;
+
+public:
+    Mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai) {//member initialization list
+        //definisi}
+    }
+
+
 };
+
+
 
 
 int main()
