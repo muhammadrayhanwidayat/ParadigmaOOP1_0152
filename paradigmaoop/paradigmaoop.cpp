@@ -23,6 +23,9 @@ public:
 
 int main()
 {
+    Mahasiswa mhs(12, "asroni", 90, 5);
+
+    return 0;
     
 }
 
